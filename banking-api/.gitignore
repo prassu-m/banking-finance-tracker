@@ -1,0 +1,33 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.jar
+*.war
+
+### IDE ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Spring Boot ###
+application-local.yml
+application-prod.yml
+
+### Environment ###
+.env
+*.env
+
+### Logs ###
+*.log
+logs/
